@@ -7,7 +7,7 @@ import authRouter from './Routers/authRouter.js';
 import adminRouter from './Routers/adminRouter.js';
 
 dotenv.config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 10000;
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
